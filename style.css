@@ -1,0 +1,92 @@
+:root {
+    --logo-orange:  #EA9239;
+  }
+
+/* Custom CSS */
+ .navbar-expand-custom {
+    justify-content: center;
+  }
+  .logo {
+    width: 120px; /* Adjust the max-width of the logo */
+  }
+  .search-bar {
+    width: 700px; /* Adjust width as needed */
+    max-width: 700px; /* Set maximum width for input */
+  }
+  .form-inline {
+    display: flex;
+    justify-content: center;
+  }
+  .login-text {
+    margin-left: 10px; /* Adjust the margin as needed */
+  }
+  /* Additional Custom CSS */
+  .navbar-light .navbar-toggler-icon {
+    background-color: white; /* Set background color for the navbar toggler icon */
+  }
+  .navbar-light .navbar-nav .bi-person-circle {
+    color: var(--logo-orange); /* Set color for login icon */
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: black; /* Set text color for navbar links */
+  }  
+  .container {
+    padding-top: 20px;
+  }
+  .navbar-light.bg-light {
+    background-color: white !important; /* Set background color for navbar */
+    border-bottom: 1px solid var(--logo-orange); /* Add border style */
+}
+.search-bar {
+    border-color: black; /* Set border color to orange */
+  }
+  
+  .search-bar:focus {
+    outline: none;
+    border-color: var(--logo-orange); /* Set border color to orange on focus */
+    box-shadow: none;
+  }
+  
+  .btn-search {
+    background-color: var(--logo-orange); /* Set background color for search button */
+  }
+  .row {
+    margin-top: 5px;
+  }
+
+/* Change color of delete button */
+.search-bar::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px; /* Adjust the width if needed */
+    height: 16px; /* Adjust the height if needed */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%23000000'%3E%3Cpath d='M16.971 4.03c-.66-.66-1.709-.66-2.368 0L10 7.633 5.397 4.03c-.66-.66-1.709-.66-2.368 0-.66.66-.66 1.709 0 2.368L7.633 10l-4.603 4.603c-.66.66-.66 1.709 0 2.368.33.33.764.496 1.198.496s.868-.165 1.198-.496L10 12.367l4.603 4.603c.33.33.764.496 1.198.496s.868-.165 1.198-.496c.66-.66.66-1.709 0-2.368L12.367 10l4.603-4.603c.66-.659.66-1.708 0-2.367z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    cursor: pointer;
+  }
+
+  @media (max-width: 768px) { /* Adjust for smaller screens */
+    /* Add your CSS styles here to adjust the size of elements in the first row */
+    .form-inline {
+        flex-direction: column; /* Stack inputs vertically on smaller screens */
+    }
+    .form-control {
+        width: 100%; /* Full width input on smaller screens */
+    }
+    .error-box {
+        font-size: 14px; /* Adjust font size for error message on smaller screens */
+    }
+}
+
+/* Custom CSS for adding space between navbar elements */
+.navbar-nav .nav-item {
+    margin-right: 20px; /* Adjust this value according to your preference */
+}
+
+
+
+  
+  
+  
