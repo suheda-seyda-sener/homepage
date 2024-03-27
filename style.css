@@ -8,6 +8,7 @@
   }
   .logo {
     width: 120px; /* Adjust the max-width of the logo */
+    margin-left: 30px;
   }
   .search-bar {
     width: 700px; /* Adjust width as needed */
@@ -30,15 +31,12 @@
   .navbar-light .navbar-nav .nav-link {
     color: black; /* Set text color for navbar links */
   }  
-  .container {
-    padding-top: 20px;
-  }
   .navbar-light.bg-light {
     background-color: white !important; /* Set background color for navbar */
     border-bottom: 1px solid var(--logo-orange); /* Add border style */
 }
 .search-bar {
-    border-color: black; /* Set border color to orange */
+    border-color: rgb(40, 37, 37); /* Set border color to orange */
   }
   
   .search-bar:focus {
@@ -82,7 +80,10 @@
 
 /* Custom CSS for adding space between navbar elements */
 .navbar-nav .nav-item {
-    margin-right: 20px; /* Adjust this value according to your preference */
+    margin-right: 30px; /* Adjust this value according to your preference */
+}
+.col-auto {
+  margin-right: 30px; /* Adjust this value according to your preference */
 }
 
 
