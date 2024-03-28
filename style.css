@@ -120,17 +120,13 @@
 .login-button.signup:hover {
   background-color: white; /* White background for sign-up button on hover */
   color:black;
+  border-color: var(--logo-orange); /* Orange border for sign-up button on hover */
 }
 .login-button {
-  padding: 10px 25px; /* Increase padding to increase width */
+  padding: 7px 20px; /* Increase padding to increase width */
   border: 2px solid transparent;
   border-radius: 5px;
   text-decoration: none;
-}
-
-/* Add margin between login and signup buttons */
-.login-button-container + .login-button-container {
-  margin-left: 10px;
 }
 
 
