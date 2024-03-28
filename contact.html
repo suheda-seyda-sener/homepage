@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="style.css"> <!-- Custom CSS -->
 </head>
 <body>
+  
   <div class="container-fluid">
     <!-- First row for logo, search bar, and login -->
     <div class="row align-items-center">
@@ -23,7 +24,7 @@
       <div class="col">
         <form class="form-inline my-2 my-lg-0">
           <div class="d-flex">
-            <input class="form-control mr-sm-2 search-bar" type="search" placeholder="Search for ...." aria-label="Search">
+            <input class="form-control mr-sm-2 search-bar" type="search" placeholder="Search for ...." aria-label="Search" >
             <button class="btn btn-search my-2 my-sm-0" type="submit">
               <i class="bi bi-search-heart"></i> <!-- Bootstrap icon for search -->
             </button>
@@ -38,14 +39,20 @@
       </div>
       <div class="col-auto">
         <div class="d-flex align-items-center">
-          <div id="login" >
+          <!-- Button for small screens -->
+          <button type="button" class="btn btn-primary btn-orange d-block d-sm-none">
+            <i class="bi bi-person-fill me-1"></i> 
+          </button>
+          <!-- Login and Signup for larger screens -->
+          <div id="login" class="d-none d-sm-block">
             <a href="login.html" class="login-button login">Log in </a>
           </div>
-          <div id="signup" class="ms-2">
+          <div id="signup" class="ms-2 d-none d-sm-block">
             <a href="signup.html" class="login-button signup">Sign up</a>
           </div>
         </div>
       </div>
+      
       
     </div>
       
@@ -98,8 +105,9 @@
       </div>
     </div>
   </div>
-
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, consequuntur architecto hic nihil praesentium molestias quis possimus a, sit atque est. Delectus ratione officia mollitia expedita sunt deserunt quis molestiae?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum quas voluptates sunt, sequi fugiat, neque dolore laudantium laboriosam quos necessitatibus quasi ab esse! Suscipit, mollitia obcaecati nam minus nobis ut?</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, laboriosam fugiat quaerat quae amet, quam sapiente delectus accusantium ullam corporis voluptatibus nesciunt et eligendi eum ab illo aliquid, excepturi nulla!
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, molestias. Sint sit, repudiandae alias ducimus repellat molestiae fugiat, corrupti, maxime a amet temporibus sed dolorem aspernatur iure quas impedit totam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur dignissimos illo odit cum blanditiis doloribus magni labore at. Eum at quos mollitia rerum! Saepe ullam nulla dolor velit. Sed, ipsum?
+  </p>
   
   <!-- Bootstrap Scripts (jQuery and Popper.js) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

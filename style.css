@@ -123,9 +123,7 @@
   color: var(--logo-orange);
 }
 
-/* Default styles */
-
-/* Media query for small devices */
+/* Media query */
 @media (max-width: 576px) {
   .logo-button {
     margin-right: auto;
@@ -139,7 +137,6 @@
 }
 
 
-/* Media query for small devices */
 @media (max-width: 576px) {
   .search-bar {
     width: 55%; /* Adjust width for smaller screens */
@@ -151,7 +148,6 @@
   }
 }
 
-/* Media query for medium devices */
 @media (min-width: 576px) and (max-width: 750px) {
   .search-bar {
     width: 70%;
@@ -179,7 +175,6 @@
 }
 }
 
-/* Media query for large devices */
 @media (min-width: 1000px) and (max-width: 1200px){
   .search-bar {
     width: 400px; /* Set default width to 100% */
