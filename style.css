@@ -9,6 +9,7 @@
   .logo {
     width: 120px; /* Adjust the max-width of the logo */
     margin-left: 30px;
+    margin-top: 15px;
   }
   .search-bar {
     width: 700px; /* Adjust width as needed */
@@ -32,7 +33,7 @@
     color: black; /* Set text color for navbar links */
   }  
   .navbar-light.bg-light {
-    background-color: white !important; /* Set background color for navbar */
+    background-color: transparent!important; /* Set background color for navbar */
     border-bottom: 1px solid var(--logo-orange); /* Add border style */
 }
 .search-bar {
@@ -49,7 +50,7 @@
     background-color: var(--logo-orange); /* Set background color for search button */
   }
   .row {
-    margin-top: 5px;
+    margin-top: -5px;
   }
 
 /* Change color of delete button */
@@ -85,7 +86,9 @@
 .col-auto {
   margin-right: 30px; /* Adjust this value according to your preference */
 }
-
+.container-fluid {
+  margin-top: 15px;
+}
 
 
   
