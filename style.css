@@ -7,9 +7,9 @@
     justify-content: center;
   }
   .logo {
-    width: 115px; /* Adjust the max-width of the logo */
+    width: 130px; /* Adjust the max-width of the logo */
     margin-left: 30px;
-    margin-top: 10px;
+    margin-top: 15px;
   }
   .search-bar {
     width: 6500px; /* Adjust width as needed */
@@ -139,7 +139,6 @@
 }
 
 
-
 /* Media query for small devices */
 @media (max-width: 576px) {
   .search-bar {
@@ -150,7 +149,6 @@
   .logo {
     width: 100px;
   }
-  .login-button.login{}
 }
 
 /* Media query for medium devices */
@@ -159,7 +157,7 @@
     width: 70%;
   }
   .logo {
-    width: 120px;
+    width: 110px;
 }
 }
 
@@ -177,7 +175,7 @@
     width: 300px; /* Set default width to 100% */
   }
   .logo {
-    width: 130px;
+    width: 125px;
 }
 }
 
