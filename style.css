@@ -22,13 +22,7 @@
   .login-text {
     margin-left: 10px; /* Adjust the margin as needed */
   }
-  /* Additional Custom CSS */
-  .navbar-light .navbar-toggler-icon {
-    background-color: white; /* Set background color for the navbar toggler icon */
-  }
-  .navbar-light .navbar-nav .bi-person-circle {
-    color: var(--logo-orange); /* Set color for login icon */
-  }
+
   .navbar-light .navbar-nav .nav-link {
     color: black; /* Set text color for navbar links */
   }  
@@ -123,7 +117,7 @@
   border-color: var(--logo-orange); /* Orange border for sign-up button on hover */
 }
 .login-button {
-  padding: 7px 20px; /* Increase padding to increase width */
+  padding: 6px 20px; /* Increase padding to increase width */
   border: 2px solid transparent;
   border-radius: 5px;
   text-decoration: none;
