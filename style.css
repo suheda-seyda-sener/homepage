@@ -90,6 +90,15 @@
   margin-top: 15px;
 }
 
+.login-button {
+  color: black; /* Change this to your desired color */
+  text-decoration: none; /* Remove underline */
+}
+
+.login-button:hover {
+  color: black; /* Change this to your desired hover color */
+}
+
 
   
   
