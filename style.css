@@ -90,16 +90,50 @@
   margin-top: 15px;
 }
 
+/* Common styles for both buttons */
 .login-button {
-  color: black; /* Change this to your desired color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: 2px solid transparent; /* Border initially transparent */
+  border-radius: 5px; /* Rounded corners */
   text-decoration: none; /* Remove underline */
 }
 
-.login-button:hover {
-  color: black; /* Change this to your desired hover color */
+/* Styling for the login button */
+.login-button.login {
+  border-color: var(--logo-orange); /* Orange border for login button */
+  color: black;
+}
+
+/* Styling for the signup button */
+.login-button.signup {
+  background-color: var(--logo-orange); /* Orange background for sign-up button */
+  color: white; /* White text for sign-up button */
+}
+
+/* Change background color of login button on hover */
+.login-button.login:hover {
+  background-color: var(--logo-orange);
+  color:white;
+}
+
+/* Change background color of signup button on hover */
+.login-button.signup:hover {
+  background-color: white; /* White background for sign-up button on hover */
+  color:black;
+}
+.login-button {
+  padding: 10px 25px; /* Increase padding to increase width */
+  border: 2px solid transparent;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Add margin between login and signup buttons */
+.login-button-container + .login-button-container {
+  margin-left: 10px;
 }
 
 
-  
-  
-  
+
+
+
